@@ -1,0 +1,51 @@
+{
+    "columns": [
+        "Unnamed: 0",
+        "win_percentage_5",
+        "win_percentage",
+        "avg_margin_5",
+        "avg_margin",
+        "home_or_away",
+        "spread",
+        "opp_win_percentage_5",
+        "opp_win_percentage",
+        "opp_avg_margin_5",
+        "opp_avg_margin"
+    ],
+    "rows": 6455,
+    "cols": 11,
+    "target_is_numeric": true,
+    "columns_info": {
+        "Unnamed: 0": [
+            "scale"
+        ],
+        "win_percentage_5": [],
+        "win_percentage": [
+            "scale"
+        ],
+        "avg_margin_5": [
+            "scale"
+        ],
+        "avg_margin": [
+            "scale"
+        ],
+        "home_or_away": [
+            "scale"
+        ],
+        "spread": [
+            "scale"
+        ],
+        "opp_win_percentage_5": [],
+        "opp_win_percentage": [],
+        "opp_avg_margin_5": [
+            "scale"
+        ],
+        "opp_avg_margin": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 11,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

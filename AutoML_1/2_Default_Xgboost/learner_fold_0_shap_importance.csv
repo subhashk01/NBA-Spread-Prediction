@@ -1,0 +1,12 @@
+feature,shap_importance
+win_percentage_5,0.6647923
+spread,0.4189205
+opp_win_percentage_5,0.39427483
+win_percentage,0.15415102
+avg_margin_5,0.14195794
+Unnamed: 0,0.13167015
+opp_avg_margin_5,0.10875129
+opp_win_percentage,0.10802104
+home_or_away,0.092723295
+avg_margin,0.09214216
+opp_avg_margin,0.08816123
