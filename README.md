@@ -3,7 +3,7 @@
 
 In this project I created a Light GBM based machine learning model that predicted if an NBA team would beat the spread with 70% accuracy. I scraped NBA box score and spread data from the Oddshark website for NBA seasons from 2018 - 2022, and then engineered features and did model selection. The models I considered were Light GBM, Random Forest Classifiers, a 1 Layer NN, and a Linear SVC. 
 
-After constructing and training my model with K-Folds cross validation on NBA data from 2018-2021, I created an optimal betting strategy to use for the 2022 season. If the model starts with $100 and bets $50 on each game it has a 53% certainty in, the model can generate over $20,000 in winnings.
+After I decided on the LightGBM model and trained it with K-Folds cross validation on NBA data from 2018-2021, I created an optimal betting strategy to use for the 2022 season. If the model starts with $100 and bets $50 on each game it has a 53% certainty in, the model can generate over $20,000 in winnings.
 
 ![image](figures/Season_Simulated_Actual.png)
 
