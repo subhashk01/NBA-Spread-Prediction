@@ -15,7 +15,7 @@ Setting the certainty threshold to 0.53 does result in the most cash generated, 
 
 
 ### Analyzing the Certainty Threshold
-The following graphs show interesting, if not expected, results that arise from experimenting with the model's certainty threshold.
-![image](figures/percent_of_games_bet_on.png)
-![image](figures/model_money_per_bet.png)
+The following graphs show interesting, if not expected, results that arise from experimenting with the model's certainty threshold. One unexpected result is that the model is often less confident than it should be; it's certainty is prediction is quite a bit lower than how often it's right on those predictions.
 ![image](figures/model_precision.png)
+![image](figures/model_money_per_bet.png)
+![image](figures/percent_of_games_bet_on.png)
