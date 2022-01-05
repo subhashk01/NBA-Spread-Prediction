@@ -7,11 +7,13 @@ After constructing and training my model with K-Folds cross validation on NBA da
 
 ![image](figures/Season_Simulated_Actual.png)
 
+### Alternate Betting Strategy 
+Setting the certainty threshold to 0.53 does result in the most cash generated, but this is largely because it results in the most games being bet on (97%). Very few people have the energy to bet on 97% of games in an NBA season. A certainty threshold of 0.91 maximizes the money made per bet ($100), although the model is only this certain of 6% of all NBA games.
+
 ### Features
 The features I constructed were the team's winning ratio, their winning ratio in the last 5 games, their average margin of victory, their average margin of victory in the last 5 games, the same quantities for their oppponent, whether the game was being played at home or away, and what the spread was.
 
-### Alternate Betting Strategy 
-Setting the certainty threshold to 0.53 does result in the most cash generated, but this is largely because it results in the most games being bet on (97%). Very few people have the energy to bet on 97% of games in an NBA season. A certainty threshold of 0.91 maximizes the money made per bet ($100), although the model is only this certain of 6% of all NBA games.
+
 
 
 ### Analyzing the Certainty Threshold
