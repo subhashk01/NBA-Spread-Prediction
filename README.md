@@ -17,7 +17,7 @@ The features I constructed were the team's winning ratio, their winning ratio in
 
 
 ### Analyzing the Certainty Threshold
-The following graphs show interesting, if not expected, results that arise from experimenting with the model's certainty threshold. One unexpected result is that the model is often less confident than it should be; it's certainty is prediction is quite a bit lower than how often it's right on those predictions.
+The following graphs show interesting, if not expected, results that arise from experimenting with the model's certainty threshold. One unexpected result is that the model is often less confident than it should be; it's certainty is prediction is lower than its accuracy.
 ![image](figures/model_precision.png)
 ![image](figures/model_money_per_bet.png)
 ![image](figures/percent_of_games_bet_on.png)
